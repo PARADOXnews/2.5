@@ -1,0 +1,136 @@
+* {
+   font-family: lato;
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+}
+
+
+header nav {
+   height: 72px;
+   padding: 12px 32px;
+   background-color: #FBF9FF;
+   max-width: 1856px;
+   width: 100%;
+   margin: auto;
+   margin-bottom: 131px;
+}
+
+
+header nav img,
+header nav ul,
+header nav ul li,
+header nav button {
+   display: inline-block;
+   vertical-align: middle;
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+header nav img {
+   margin-right: 670px;
+}
+
+header nav ul li {
+   margin-right: 20px;
+   color: #323232;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+}
+
+header nav button {
+   margin-left: 570px;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 14px;
+   font-weight: 500;
+   padding: 8px 16px;
+   border-radius: 8px;
+   border: 1px solid #6941C6;
+   background-color: #6941C6;
+
+}
+
+.price {
+   padding: 96px;
+   background-color: #F1E8FF;
+max-width: 1280px;
+padding: 96px;
+margin:0 auto;
+text-align:center;
+}
+
+.price >div  > h1 {
+   color: #181D27;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-weight: 800;
+
+}
+
+.price > div > p{
+   margin-bottom:32px;
+   color: #535862;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+}
+
+.price > div {
+   margin-bottom:64px;
+   padding:0 32px;
+  
+}
+
+.price > div> div {
+    border-radius:16px;
+border: 1px solid #E9EAEB;
+background: #FFF;
+}
+
+.price > div >div > h1 {
+   color: #181D27;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 600;
+}
+
+.price > div > div > p{
+   color: #535862;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+.price >div >div > button{
+   margin-top:40px;
+   color: #6941C6;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+border-radius: 9999px;
+border: 1px solid #E9D7FE;
+background-color: #F9F5FF;
+}
+
+.price > div >div > input[value="get started"],  .price >div>div> input[value="chat to sales"]{
+   display:block;
+   margin:auto
+}
+
+
+.price > div>div>div {
+   border-top:1px solid #E9EAEB;
+}
+
