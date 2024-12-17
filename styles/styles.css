@@ -7,11 +7,14 @@ body {
    margin: 0;
 }
 
+header {
+      background-color: #FBF9FF;
+
+}
 
 header nav {
    height: 72px;
    padding: 12px 32px;
-   background-color: #FBF9FF;
    max-width: 1856px;
    width: 100%;
    margin: auto;
@@ -58,13 +61,13 @@ header nav button {
 .price {
    padding: 96px;
    background-color: #F1E8FF;
-max-width: 1280px;
-padding: 96px;
+max-width: 1440px;
+width:100%;
 margin:0 auto;
 text-align:center;
 }
 
-.price >div  > h1 {
+.pay  > h1 {
    color: #181D27;
 text-align: center;
 font-family: Inter;
@@ -73,7 +76,7 @@ font-weight: 800;
 
 }
 
-.price > div > p{
+.pay > p{
    margin-bottom:32px;
    color: #535862;
 text-align: center;
@@ -82,19 +85,25 @@ font-size: 24px;
 font-weight: 400;
 }
 
-.price > div {
+.pay  {
    margin-bottom:64px;
-   padding:0 32px;
-  
+   max-width:1248px;
+   width:100%
 }
 
-.price > div> div {
+.pay >  div {
+   
+  max-width:373px;
+  width:100%;
     border-radius:16px;
 border: 1px solid #E9EAEB;
 background: #FFF;
+   padding:0 32px;
+   display:inline-block;
+   margin-right:32px;
 }
 
-.price > div >div > h1 {
+.pay > div > h1 {
    color: #181D27;
 text-align: center;
 font-family: Inter;
@@ -102,7 +111,7 @@ font-size: 48px;
 font-weight: 600;
 }
 
-.price > div > div > p{
+.pay >  div > p{
    color: #535862;
 text-align: center;
 font-family: Inter;
@@ -111,7 +120,7 @@ font-weight: 400;
 }
 
 
-.price >div >div > button{
+.pay >div > button{
    margin-top:40px;
    color: #6941C6;
 text-align: center;
@@ -124,13 +133,152 @@ border: 1px solid #E9D7FE;
 background-color: #F9F5FF;
 }
 
-.price > div >div > input[value="get started"],  .price >div>div> input[value="chat to sales"]{
+.pay >div > input[value="get started"],  .pay >div> input[value="chat to sales"]{
    display:block;
    margin:auto
 }
 
-
-.price > div>div>div {
-   border-top:1px solid #E9EAEB;
+.pay >div>input[value="get started"] {
+padding: 12px 18px;
+border-radius: 8px;
+border: 2px solid rgba(255, 255, 255, 0.12);
+background-color: #7F56D9;
+width:273px;
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+margin-bottom:12px;
 }
 
+.pay >div>input[value="chat to sales"] {
+   padding: 12px 18px;
+border-radius: 8px;
+border: 1px solid #D5D7DA;
+background: #FFF;
+width:273px;
+color:#414651;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+}
+
+
+
+.pay >div>div {
+   margin-top:32px;
+   border-top:1px solid #E9EAEB;
+   text-align:left;
+   margin-bottom:40px;
+}
+
+.pay > div>div >p, .pay>div>div>p>img {
+      vertical-align:middle;
+      color: #535862;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.middle {
+   max-width:1248px;
+   width:100%;
+}
+
+.middle > div {
+   max-width:1248px;
+   width:100%;
+   border-radius: 24px;
+background-color: #FFF;
+padding-top:32px;
+padding-bottom:32px;
+
+}
+
+.middle > div >h1 {
+  color: #181D27;
+font-family: Inter;
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+
+}
+
+.middle > div > p{
+   font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+text-align: center;
+color: #535862;
+margin-bottom:32px;
+}
+
+.middle >div>div{
+max-width: 704px;
+width:100%;
+padding: 32px;
+margin:0 auto;
+border-radius: 16px;
+margin-bottom:16px;
+}
+
+.middle > div > div >div {
+   display:inline-block;
+   vertical-align:top;
+   text-align:left;
+   
+}
+
+.middle > div> div>div>p{
+   margin-top:3px;
+   color: #181D27;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+margin-bottom:8px;
+}
+
+.middle >div>div>div> p +p {
+   color: #535862;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.isari {
+   margin-right:24px;
+}
+
+.isari + div{
+   max-width:580px;
+   width:100%
+}
+
+
+.accordion1 {
+   background-color: #E4E4E4;
+}
+.accordion2{
+border: 2px solid #FF2323;
+background-color: #FFE5E5;
+}
+
+.accordion3{
+background-color: #E9D7FF;
+}
+
+.accordion4{
+   background-color: #F7F4FF;
+}
+
+.accordion5{
+border: 4px solid #326DFF;
+background-color: #DCE6FF;
+}
+
+.accordion6{
+background: #FFD5E7;
+}
