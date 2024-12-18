@@ -65,6 +65,7 @@ max-width: 1440px;
 width:100%;
 margin:0 auto;
 text-align:center;
+margin-bottom:204px;
 }
 
 .pay  > h1 {
@@ -282,3 +283,101 @@ background-color: #DCE6FF;
 .accordion6{
 background: #FFD5E7;
 }
+
+
+.review {
+   margin-top:64px;
+   max-width:1248px;
+   width:100%;
+padding: 32px ;
+border-radius: 24px;
+background-color: #FFF;
+text-align:left;
+}
+.review > h1{
+   margin-top:0px;
+   margin-bottom:20px;
+   color: #181D27;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-weight: 600;
+}
+.review > p{
+   color: #535862;
+   text-align: center;
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 400;
+   margin-bottom:64px;
+}
+
+.card {
+   max-width: 580px;
+   width:100%;
+   height: 256px;
+   padding:32px;
+   border-radius: 12px;
+   border: 1px solid #E9EAEB;
+   background-color: #FFF;
+   text-align:left;
+   margin-bottom:24px;
+   display:inline-block;
+}
+
+.z {
+   margin-right:20px;
+} 
+.card > div{
+   display:inline-block;
+}
+
+.card > h1 {
+   margin-bottom:80px;
+   margin-top:0;
+}
+
+.card >div +div {
+   margin-left:99px;
+}
+
+.card >div >div {
+   display:inline-block;
+   vertical-align: middle;
+
+}
+
+img[alt=photo] {
+   vertical-align: middle;
+}
+
+.card > h1 {
+   color: #181D27;
+font-family: Inika;
+font-size: 20px;
+font-weight: 700;
+}
+
+.person{
+   margin-left:12px;
+}
+
+.person >h1 {
+   color: #181D27;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+margin:0;
+margin-bottom:5px;
+
+}
+
+.person >p {
+   color: #535862;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+margin:0;
+}
+
